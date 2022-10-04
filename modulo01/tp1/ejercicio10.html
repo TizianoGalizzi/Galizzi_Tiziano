@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 10</title>
+</head>
+<body>
+    <script>
+        var meses = ["", "Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre",];
+        //declaramos array "meses" con los 12 meses del año. (con el fin de coincidir con la numeracion del usuario añadi un elemento vacio
+        // en el primer elemento del array, es decir, que la numeracion comience con enero(1) hasta diciembre(12))
+        var month = prompt("Ingrese el numero del mes deseado"); //solicitamos al usuario el numero equivalente al mes deseado
+
+        for (var i=1 ; i<13 ; i++){ //con el for Loop recorremos el array (puse 13 en la condicion con el fin de que recorra hasta el 12)
+            if (month == i){ //condicion IF= si el mes ingresado es igual a la posicion i de la iteracion del for: 
+                document.write("El numero ingresado corresponde al mes: " +meses[i]); //escribir en el navegador el elemento en la posicion i del array "meses"
+            }
+        }
+    </script>
+</body>
+</html>
