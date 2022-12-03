@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+</head>
+
+<body>
+    <h1><b>Ejercicio 1</b></h1>
+    <p>a) Describe dos usos o funciones que proporciona la declaración DOCTYPE en una página web.</p>
+    <br>
+    <p>
+        <li>La declaracion Doctype tiene como funcion indicarle al navegador que tipo de informacion recibir</li>
+    </p>
+    <br>
+    <p>b) Para que se utilizan las siguientes etiquetas:</p>
+    <i>
+        <li><b>head</b>: El tag head tiene la funcion de contener la metadata(datos sobre otros datos) del archivo html,
+            asi como los tags: title, style, meta, link, script y base </li>
+        <li><b>title</b>: El tag title define el titulo del documento, el cual solo puede ser texto y sera mostrado en
+            la barra de navegador. Su uso es esencial, ya que este es uno de los factores importantes que influye al
+            SEO(motor optimizador de busqueda) al ser buscada la pagina por los usuarios</li>
+        <li><b>meta</b>: Es usado para definir metadata en el documento HTML. Este tag va siempre en el <b>head</b>.
+        </li>
+        <li><b>style</b>: El tag style es utilizado para dar estilo css dentro del archivo html </li>
+        <li><b>body</b>: El body contiene todo el contenido visible de una pagina web.</li>
+        <li><b>(h1,h2,h3,h4,h5,h6)</b>: Los tags H definen los encabezados del cuerpo del body, cada uno de ellos
+            comprenden un tamaño diferente en su contenido</li>
+        <li><b>a</b>: Sirve para definir un hiperenlace, lo que es usado para redirigir de una pagina a otra. Este tag
+            requiere del atributo <b>href</b>, que sirve para definir el link al que se quiere redirigir </li>
+        <li><b>strong</b>: Dota a un texto con mayor importancia.</li>
+        <li><b>br</b>: Permite realizar un salto de linea dentro de la pagina</li>
+        <li><b>ul</b>: Define en su interior a los tags <b>li</b>, haciendo que estos se creen de manera desordenada, es
+            decir, sin numeracion.</li>
+        <li><b>li</b>: Permite enlistar texto en forma de items</li>
+        <li><b>p</b>: En el podemos escribir parrafos</li>
+        <li><b>span</b>: El tag span es un contenedor en linea que es usado para darle color a una porcion de texto, por
+            lo tanto. Sirve para remarcar con color una fraccion de texto</li>
+        <li><b>table</b>: El tag table crea un tipo de formato de tabla. Dentro de este tag contenedor, van los tags
+            <b>tr</b> y <b>td.</b></li>
+        <li><b>tr</b>: El tag tr (tableRow) crea una fila dentro de la tabla.</li>
+        <li><b>td</b>: El tag td crea la celda donde ira el contenido de la tabla</li>
+        <li><b>img</b>: El tag img (image) crea un espacio de referencia para la imagen que se desea insertar. Este tag
+            requiere de los atributos <b>src</b>(source) donde se especifica la ruta de la imagen, y <b>alt</b>, que es
+            un texto alternativo en caso de que no se logre mostrar la imagen.</li>
+        <br>
+    </i>
+    <p>c)La etiqueta <b>script</b> puede ir dentro de las etiquetas de de <b>body</b> o <b>head</b>, hay alguna
+        diferencia donde pueda ir? </p>
+    <br>
+    <i>
+        <p>
+            <li>El debate entre poner scripts al final del body o en el head se debe a una cuestión de renderización de
+                la página.<br>
+                Siempre lo mejor sera buscar que el archivo HTML no reciba bloqueos (problema que surge en la lectura de
+                scripts durante la carga de la pagina.), pero existen veces en las que los scripts tienen una
+                importancia critica en el funcionamiento de la pagina y han de ir en el <b>head</b> para que la pagina
+                inicialize correctamente.
+                En conclusion, si el script es de suma importancia para el buen funcionamiento de la pagina, ponerlo en
+                el head. Sino, ubicarlo debajo o dentro del body. </li>
+        </p>
+    </i>
+
+</body>
+
+</html>
