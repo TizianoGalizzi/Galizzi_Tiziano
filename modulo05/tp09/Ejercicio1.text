@@ -1,0 +1,9 @@
+Investigar y dar una definicion con sus palabras de los siguientes terminos:
+REST: Rest deriva de "REpresentational State Transfer", REST (o REST API) es un servicio que se caracteriza por no tener estado, es decir,
+que no recuerda los datos que fueron ingresados a traves de una API, esto con el fin de no sobrecargar la memoria y mantener a la web 
+funcionando correctamente.
+API: API significa "interfaz de programación de aplicaciones". Las API son los mecanismos por los cuales 2 softwares pueden comunicarse
+entre si a traves de solicitudes y respuestas entre un cliente y un servidor.
+Endpoint: Un endpoint es la URL de una Api que responden a una peticion realizada por el cliente. Este endpoint puede responder a una misma url de distintas maneras
+dependiendo del metodo http que se utilice.
+Headers: Los headers son utilizados por el servidor para procesar los requests
