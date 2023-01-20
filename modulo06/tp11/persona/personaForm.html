@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/184863c578.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" type="image/x-icon" href="../img/silicon-transparente.ico">
+    <title>Gestion de proyectos</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-title-container">
+                <p class="header-title"><img src="../img/silicon transparente.png" alt="siliconLogo">Portal Silicon Full
+                    Stack</p>
+            </div>
+            <div class="nav-container">
+                <div class="nav-content">
+                    <div class="nav-item">
+                        <li>
+                            <i class="fa-sharp fa-solid fa-house"></i><a href="../index.html">Inicio</a></i>
+                        </li>
+                    </div>
+                    <div class="nav-item">
+                        <li>
+                            <i class="fa fa-user-gear"><a href="personaForm.html">Gestion de proyectos</a></i>
+                        </li>
+                    </div>
+                    <div class="nav-item">
+                        <li>
+                            <i class="fa fa-user-group"><a href="personaTabla.html">Listar personas</a></i>
+                        </li>
+                    </div>
+                </div>
+            </div>
+            <div class="main-title">
+                <i class="fa-sharp fa-solid fa-house">
+                    <h1>Gestion de proyectos</h1>
+                </i>
+            </div>
+            <hr>
+        </div>
+    </header>
+    <section id="personaForm-content">
+        <form autocomplete="off">
+            <fieldset>
+                <legend>Datos personales</legend>    
+
+                <label for="dni">* DNI<span class="dni-label-aclaration">(sin punto o otro caracter especial)</span></label><br>
+                <input id="dni"type="text" placeholder="Ej: 46241068" required><br>
+
+                <label for="nombre">* Nombre:</label><br>
+                <input id="nombre" type="text" placeholder="ingrese su nombre" required><br>
+
+                <label for="apellido">* Apellido:</label><br>
+                <input id="apellido" type="text" placeholder="Ingrese el apellido" required>
+                
+                <hr>
+                <label>Sexo:</label><br>
+
+                <input id="masculino" type="radio" name="sexo">
+                <label for="masculino">Masculino</label><br>
+
+                <input id="femenino" type="radio" name="sexo">
+                <label for="femenino">Femenino</label><br>
+
+                    <input id="otro" type="radio" name="sexo">
+                <label for="otro">Otro</label><br><br>
+
+                <label for="f-nacimiento">Fecha de nacimiento</label><br>
+                <input type="date">
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Datos de acceso</legend>
+
+                <label for="email">Correo electronico:</label><br>
+                <input id="email" type="email"><br>
+
+                <label for="contraseña">Contraseña:</label><br>
+                <input id="contraseña" type="password">
+            </fieldset>
+
+            <fieldset>
+                <legend>Datos academicos</legend>
+
+                <label>Nivel estudios:</label>
+                <select id="estudio" >
+                    <option value="prim">Primario</option> <!-- el value es lo que mandamos al backend-->
+                    <option value="sec">Secundario</option>
+                    <option value="ter" selected>Terciario</option>
+                    <option value="uni" selected>Universitario</option>
+                    <option value="pgr" selected>Post Grado</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Acciones</legend>
+                <button type="submit"><i class="fa fa-circle-plus"></i>  Crear persona</button>
+                <button type="reset"> Limpiar formulario</button>
+            </fieldset>
+        </form>
+    </section>
+</body>
+
+</html>

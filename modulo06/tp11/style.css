@@ -1,0 +1,97 @@
+/*Estilos generales*/
+body{
+    padding: 0;
+    margin: 0px 5px;
+}
+li{list-style: none;}
+a{
+    font-size: 0.9em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 5px ;
+}
+a:hover{
+    color: rgb(117, 117, 245);
+}
+p{
+    font-size: 1em ;
+}
+h1{
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Dandole estilos al titulo del header y el logo*/
+.header-title-container{
+    text-align: center; 
+    font-size: 1.5em;
+    background-color: darkblue;
+    border: 2px solid darkblue;
+}
+.header-title{
+    color: white;
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    margin: 0;
+}
+.header-title-container img{
+    vertical-align: middle;
+    position: absolute;
+    width: 50px;
+    left: 20px;
+    top: 10px;
+}
+
+/*Dandole estilos al navegador con los links*/
+.nav-container{
+    background-color: #e4e4e4;
+}
+.nav-content{
+    text-align: center;
+}
+.nav-item{
+    display: inline-block;
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+/*Estilos del titulo de la pagina*/
+.main-title{
+    background-color: #e4e4e4;
+    padding-left: 7px;
+}
+.main-title h1{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+
+
+/*detalles para el formulario de personaForm*/
+legend{
+    font-weight: bold;
+}
+/*haciendo mas chiquita la aclaracion del label del DNI*/
+.dni-label-aclaration{
+    font-size: 0.8em;
+}
+button{
+    font-size: 1.1em;
+}
+
+/*Estilos para la tabla de personaTabla*/
+table,tr,th,td{
+    border: 1px solid black;
+    font-size: 20px;
+    border-collapse: collapse;
+}
+th{
+    background-color: #e4e4e4;
+
+}
+table{
+    width: 70%;
+    margin: auto;
+}
