@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#column{
+    text-align: center;
+}
+.header{
+    background-color: lightgray;
+}
+
+.first{
+    background-color: red;
+}
+.second{
+    background-color: lightblue;
+}
+.third{
+    background-color: green;
+}
+.fourth{
+    background-color: yellow ;
+}
+.fifth{
+    background-color: #444;
+}
+.sixth{
+    background-color: lightcoral;
+}
+
+/*si una img sobresale de su grilla de boostrap, al darle img-fluid, esta se adaptara sin que el texto
+se sobreponga por encima*/

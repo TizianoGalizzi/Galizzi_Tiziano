@@ -1,0 +1,24 @@
+.header {
+    background-color: lightgray;
+    font-weight: bold;
+    color: rgb(2, 2, 2);
+    padding: 5px;
+    text-align: center;
+}
+#column{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+.left{
+    background-color: red;
+}
+.center{
+    background-color: lightblue;
+}
+.right{
+    background-color: green;
+}
+.last-middle{
+    background-color: lightgray;
+}
