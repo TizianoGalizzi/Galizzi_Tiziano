@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/184863c578.js" crossorigin="anonymous"></script>
+    <title>tp13ej1.html</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-title-container">
+            <div class="container header-contains">
+                <div class="header-container">
+                    <p class="header-title"><a class="navbar-brand" href="#">
+                            <img class="logo" src="./img/silicon transparente.png" alt="silicon-logo"></a>Portal silicon
+                        full stack
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid fluid-nav">
+            <nav class="nav-container">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#"><i class="fa-solid fa-home"></i>Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-users"></i>Gestion de personas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-user-gear"></i>Lista de personas</a>
+                    </li>
+                </ul>
+            </nav>
+            <h1 class="page-title"><i class="fa-solid fa-users"></i>Gestion de personas</h1>
+        </div>
+        <div class="container-fluid">
+            <form>
+                <div class="row">
+                    <fieldset>
+                        <legend>Datos personales</legend>
+                        <div class="row">
+                            <div class="col-6">
+                                <label for="Nombre" class="form-label">* Nombre</label>
+                                <input type="text" class="form-control" placeholder="Ingrese su nombre"
+                                    aria-label="Nombre">
+                            </div>
+                            <div class="col-6">
+                                <label for="apellido" class="form-label">* Apellido</label>
+                                <input type="text" class="form-control" placeholder="Ingrese su apellido"
+                                    aria-label="apellido">
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="dni" class="form-label">* DNI</label>
+                                    <input type="text" class="form-control input-dni"
+                                        placeholder="Ej: 46241068 (sin puntos o comas)" aria-label="dni">
+                                </div>
+                            </div>
+
+                            <hr>
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="formGroupExampleInput" class="form-label">Sexo:</label>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadios"
+                                            id="exampleRadios1" value="option1" checked>
+                                        <label class="form-check-label" for="exampleRadios1">
+                                            Femenino
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadios"
+                                            id="exampleRadios2" value="option2">
+                                        <label class="form-check-label" for="exampleRadios2">
+                                            Masculino
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadios"
+                                            id="exampleRadios3" value="option3">
+                                        <label class="form-check-label" for="exampleRadios3">
+                                            Otro
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="f-nacimiento" class="form-label">Fecha de nacimiento</label>
+                                    <input type="date" class="form-control" placeholder="" aria-label="f-nacimiento">
+                                </div>
+                            </div>
+                    </fieldset>
+                </div>
+
+                <div class="row">
+                    <fieldset>
+                        <legend>Datos de acceso</legend>
+                        <label for="email" class="form-label">Correo electronico:</label>
+                        <input type="email" class="form-control" placeholder="ej: correoejemplo@gmail.com"
+                            aria-label="email">
+                        <label for="password" class="form-label">Contraseña:</label>
+                        <input type="password" class="form-control" placeholder="Ingrese una contraseña"
+                            aria-label="password">
+                    </fieldset>
+                </div>
+
+                <div class="row">
+                    <fieldset>
+                        <legend>Datos academicos</legend>
+                        <label for="select-input" class="form-label">Nivel de estudios:</label>
+                        <select id="select-input" class="form-select" aria-label="select-input">
+                            <option value="prim" selected>Primario</option>
+                            <option value="sec">Secundario</option>
+                            <option value="terc">Terciario</option>
+                            <option value="univ">Universitario</option>
+                            <option value="post">Post Grado</option>
+
+                        </select>
+                    </fieldset>
+                </div>
+                <div class="row">
+                    <fieldset>
+                        <legend>Acciones</legend>
+                        <button type="submit" class="btn btn-primary"><i class="fa-solid fa-plus"></i>Crear
+                            persona</button>
+                        <button type="reset" class="btn btn-primary">Limpiar datos</button>
+                    </fieldset>
+                </div>
+            </form>
+        </div>
+    </header>
+
+
+
+
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+</html>
